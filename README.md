@@ -1,6 +1,9 @@
 # GamesEngineAssignment
 
-# Journey: a nature music visualiser using unity
+# Journey: a nature music inspired visualiser using unity
+
+## Proposal:
+
 ## Overview:
 The plan for this assignment is to match the serenity of the music playing with a natural environment. The camera will follow a track from a lake at the beginning through a forrest. As the tempo of the music increases the camera will gradually climb though the forrest.
 
@@ -14,6 +17,14 @@ The second source of inspiration comes from a simple walk in the woods. Generall
 
 My final source of inspiration came from the many audio visualisers that I watched on youtube. The manipulation on objects were a prime example of what I want to achieve with my trees.
 
+## Brief:
+
+## Video Demo:
+
+[![YouTube](http://img.youtube.com/vi/2TF44_jPrPg/0.jpg)](https://www.youtube.com/watch?v=2TF44_jPrPg)
+
+
+
 ## References:
 Journey: https://www.youtube.com/watch?v=mU3nNT4rcFg 
 Spirit in the North: https://www.youtube.com/watch?v=YN5DTaYdiLw
@@ -21,3 +32,4 @@ Procedural generation tutorial: https://gamedevacademy.org/complete-guide-to-pro
 Procedural generation example: https://www.youtube.com/watch?v=YEGodGO-o9M 
 Audio Visualiser: https://www.youtube.com/watch?v=82Q6DRqf9H4 
 Mesh Modifier: https://www.youtube.com/watch?time_continue=10&v=Vft7kD6HQnA 
+
