@@ -16,13 +16,13 @@ The second source of inspiration comes from a simple walk in the woods. Generall
 My final source of inspiration came from the many audio visualisers that I watched on youtube. The manipulation on objects were a prime example of what I want to achieve with my trees.
 
 ## Brief:
-The assignment land scape is generated naturally from a procedural generation script. This landscape is also poulated with custom made Tree and Grass Prefabs. These Prefabs have aduio visualisers attached to certain parts of their game objects which vary the X and Z components of their Vector3's. These Prefabs also are set to change to a random RGB color based on a timer. The project is experienced through the view of several cameras spread throughout the generated landscape which is itereated through *using the space key*. There is a shader on the landscape as well as a fog set up witihin the scene to ehance the aesthetic. The song used for this visualizer is Somewhere I'd Rather Be by Wisp X.
+The assignment land scape is generated naturally from a procedural generation script. This landscape is also poulated with custom made Tree and Grass Prefabs. These Prefabs have aduio visualisers attached to certain parts of their game objects which vary the X and Z components of their Vector3's. These Prefabs also are set to change to a random RGB color based on a timer. The project is experienced through the view of several cameras spread throughout the generated landscape which is itereated through *using the space key*. There is a shader on the landscape as well as a fog set up witihin the scene to ehance the aesthetic. The thick fog used is complited by a psuedo neon glow derived Self-Illum shader in Unity. from the  The song used for this visualizer is Somewhere I'd Rather Be by Wisp X.
 
 ## Development
 Compenents of the Shader, Audio Visualizer and Terrain generation were adapted from lecture code. The prefabs and all other containing scrpits, environments and resources were created from scratch.
 
 ## Highlights:
-I am most proud of the aesthetic side of this project. In essense, this was adapting the audio visualizer code alongside the RGB aspect of the prefabs to enhance the visual experience as well as setting up the best camera positions to enjoy the experince. I feel the theme oif Nature was the prime inspiration for this project and is reflected through out.
+I am most proud of the aesthetic side of this project. In essense, this was adapting the audio visualizer code alongside the RGB aspect of the prefabs to enhance the visual experience as well as setting up the best camera positions to enjoy the experince. I feel the theme of Nature was the prime inspiration for this project and is reflected through out.
 
 ## Instructions
 Space bar is the key for iterating through the Camera positions
@@ -40,5 +40,5 @@ Procedural generation tutorial: https://gamedevacademy.org/complete-guide-to-pro
 Procedural generation example: https://www.youtube.com/watch?v=YEGodGO-o9M <br />
 Audio Visualiser: https://www.youtube.com/watch?v=82Q6DRqf9H4 <br />
 Mesh Modifier: https://www.youtube.com/watch?time_continue=10&v=Vft7kD6HQnA <br />
-Song: https://www.youtube.com/watch?v=V5-AQTPFJSg <br />
+Song Used: https://www.youtube.com/watch?v=V5-AQTPFJSg <br />
 
