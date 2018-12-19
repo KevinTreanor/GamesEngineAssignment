@@ -63,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Assets\AudioViz.cs" />
     <Compile Include="Assets\Scenes\InfTerrain.cs" />
-    <Compile Include="Assets\Scenes\Move.cs" />
     <Compile Include="Assets\Scenes\TerrainTile.cs" />
     <Compile Include="Assets\Scenes\TreeViz.cs" />
     <Compile Include="Assets\TreeAudioViz.cs" />
