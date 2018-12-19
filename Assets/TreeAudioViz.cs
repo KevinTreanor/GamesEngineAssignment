@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Adapted from class code to work with prefabs instead of generated Game Objects
 public class TreeAudioViz : MonoBehaviour {
 
     public float scale = 2;
-    List<GameObject> elements = new List<GameObject>();
+    
     // Use this for initialization
     void Start()
     {
@@ -16,6 +16,7 @@ public class TreeAudioViz : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        //Causes prefabs to move with the bands from audio input
         for (int i = 0; i < 5; i++)
         {
             Vector3 ls = gameObject.transform.localScale;

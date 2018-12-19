@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-
+//Adapted from class code to only take audio input
 
 [RequireComponent(typeof(AudioSource))]
 public class AudioViz : MonoBehaviour {

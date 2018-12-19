@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Adapted from class code to create pearlanoise mountains lakes and bumps only
 public class TerrainTile : MonoBehaviour {
 
     public int quadsPerTile = 10;
@@ -88,7 +88,7 @@ public class TerrainTile : MonoBehaviour {
 	}
 
     
-    // Mountains and valleys & bumps
+    // Mountains and lakes & bumps
     public static float land(float x, float y)
     {
         float flatness = 0.2f;

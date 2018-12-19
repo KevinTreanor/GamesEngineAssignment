@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//Script to revolve through camera angles
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,6 +23,7 @@ public class CameraRevolve : MonoBehaviour
 
      void Update()
     {
+        //If space is pressed it will move to the next camera
 
         if (Input.GetKeyDown(KeyCode.Space) && (cam1.enabled == true))
         {
@@ -50,7 +53,8 @@ public class CameraRevolve : MonoBehaviour
             cam5.enabled = true;
         }
         else if (Input.GetKeyDown(KeyCode.Space) && (cam5.enabled == true))
-        {
+        { 
+            //loops back to first camera
             cam1.enabled = true;
             cam2.enabled = false;
             cam3.enabled = false;

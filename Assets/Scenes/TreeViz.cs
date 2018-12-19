@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Script to randomly select RGB colour for each componenet of the prefab on a timer
 public class TreeViz : MonoBehaviour {
 
     public Color newColor;

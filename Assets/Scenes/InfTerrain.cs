@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//Adapted from class code
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -71,7 +73,8 @@ public class InfTerrain : MonoBehaviour {
                         Vector3 pos = new Vector3((x * quadsPerTile + camX),
                             0,
                             (z * quadsPerTile + camZ));
-
+                        
+                        //Instantiates Trees from the range of the tiles
                         for (int j = 0; j < treesPerTile; j++)
                         {
                             TreePos = new Vector3(Random.Range(-(x * quadsPerTile + camX), x * quadsPerTile + camX), 159, Random.Range(-z * quadsPerTile + camZ, z * quadsPerTile + camZ));
@@ -79,6 +82,7 @@ public class InfTerrain : MonoBehaviour {
                            
                         }
 
+                        //Instantiates Grass from the range of the tiles
                         for (int j = 0; j < grassPerTile; j++)
                         {
                             GrassPos = new Vector3(Random.Range(-(x * quadsPerTile + camX), x * quadsPerTile + camX), 153, Random.Range(-z * quadsPerTile + camZ, z * quadsPerTile + camZ));
