@@ -77,7 +77,7 @@ public class InfTerrain : MonoBehaviour {
                         //Instantiates Trees from the range of the tiles
                         for (int j = 0; j < treesPerTile; j++)
                         {
-                            TreePos = new Vector3(Random.Range(-(x * quadsPerTile + camX), x * quadsPerTile + camX), 159, Random.Range(-z * quadsPerTile + camZ, z * quadsPerTile + camZ));
+                            TreePos = new Vector3(Random.Range(-(x * quadsPerTile + camX), x * quadsPerTile + camX), 158, Random.Range(-z * quadsPerTile + camZ, z * quadsPerTile + camZ));
                             GameObject tr = Instantiate(Tree, TreePos, Quaternion.identity) as GameObject;
                            
                         }
@@ -85,7 +85,7 @@ public class InfTerrain : MonoBehaviour {
                         //Instantiates Grass from the range of the tiles
                         for (int j = 0; j < grassPerTile; j++)
                         {
-                            GrassPos = new Vector3(Random.Range(-(x * quadsPerTile + camX), x * quadsPerTile + camX), 153, Random.Range(-z * quadsPerTile + camZ, z * quadsPerTile + camZ));
+                            GrassPos = new Vector3(Random.Range(-(x * quadsPerTile + camX), x * quadsPerTile + camX), 151, Random.Range(-z * quadsPerTile + camZ, z * quadsPerTile + camZ));
                             GameObject gr = Instantiate(Grass, GrassPos, Quaternion.identity) as GameObject;
 
                         }
